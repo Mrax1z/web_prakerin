@@ -40,7 +40,7 @@
 <body>
   <div class="login-container">
     <img src="https://via.placeholder.com/100" alt="Logo" class="mb-3" style="width: 80px;">
-    <h3 class="mb-3">Login</h3>
+    <h3 class="mb-3">req</h3>
     <p class="text-muted">Sign into your pages account</p>
     <?php
     if (isset($_GET['error'])) {
