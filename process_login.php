@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 header("Location: admin_dashboard.php");
             } elseif ($user['role'] === 'operator') {
                 header("Location: operator_dashboard.php");
-            } elseif ($user['role'] === 'guru') {
+            } elseif ($user['role'] === 'user') {
                 header("Location: guru_dashboard.php");
             }
             exit();
